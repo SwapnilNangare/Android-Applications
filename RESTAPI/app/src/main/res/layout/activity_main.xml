@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E91c1A"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="100px"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/projectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="NeoSTORE"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="135px"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <EditText
+
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="90px"
+
+            android:hint="username"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="54px">
+
+        </EditText>
+
+
+        <EditText
+
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="30px"
+
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="54px" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/white"
+            android:text="LOGIN"
+            android:textColor="#E91c1A"
+            android:textSize="78px">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/forgetpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65px"
+            android:text="Forget password?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="54px">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250px"
+                android:text="DONT HAVE AN ACCOUNT?"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/newuser"
+                android:layout_width="138px"
+                android:layout_height="138px"
+                android:layout_marginLeft="200px"
+                android:layout_marginTop="200px"
+                android:backgroundTint="#E91c1A"
+
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageButton>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
